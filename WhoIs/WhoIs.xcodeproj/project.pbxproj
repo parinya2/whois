@@ -112,11 +112,10 @@
 		0AA74CAF18DE9E45000FCFD7 /* WhoIs */ = {
 			isa = PBXGroup;
 			children = (
+				0AA74CDF18DEBC84000FCFD7 /* Storyboard */,
+				0AA74CDE18DEBC64000FCFD7 /* Controller */,
 				0AA74CB818DE9E45000FCFD7 /* WhoIsAppDelegate.h */,
 				0AA74CB918DE9E45000FCFD7 /* WhoIsAppDelegate.m */,
-				0AA74CBB18DE9E45000FCFD7 /* Main.storyboard */,
-				0AA74CBE18DE9E45000FCFD7 /* WhoIsViewController.h */,
-				0AA74CBF18DE9E45000FCFD7 /* WhoIsViewController.m */,
 				0AA74CC118DE9E45000FCFD7 /* Images.xcassets */,
 				0AA74CB018DE9E45000FCFD7 /* Supporting Files */,
 			);
@@ -150,6 +149,23 @@
 				0AA74CD118DE9E45000FCFD7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AA74CDE18DEBC64000FCFD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AA74CBE18DE9E45000FCFD7 /* WhoIsViewController.h */,
+				0AA74CBF18DE9E45000FCFD7 /* WhoIsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0AA74CDF18DEBC84000FCFD7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0AA74CBB18DE9E45000FCFD7 /* Main.storyboard */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
