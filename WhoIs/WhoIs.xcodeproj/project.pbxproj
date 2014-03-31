@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A559BE418E7FBE50053BDBA /* GameCategorySelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A559BE318E7FBE50053BDBA /* GameCategorySelectorController.m */; };
+		0A559BF018E8002A0053BDBA /* StageSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A559BEF18E8002A0053BDBA /* StageSelectorController.m */; };
+		0A559BF318E8217E0053BDBA /* QuizListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A559BF218E8217E0053BDBA /* QuizListController.m */; };
 		0AA74CAA18DE9E45000FCFD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA74CA918DE9E45000FCFD7 /* Foundation.framework */; };
 		0AA74CAC18DE9E45000FCFD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA74CAB18DE9E45000FCFD7 /* CoreGraphics.framework */; };
 		0AA74CAE18DE9E45000FCFD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA74CAD18DE9E45000FCFD7 /* UIKit.framework */; };
 		0AA74CB418DE9E45000FCFD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AA74CB218DE9E45000FCFD7 /* InfoPlist.strings */; };
 		0AA74CB618DE9E45000FCFD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA74CB518DE9E45000FCFD7 /* main.m */; };
 		0AA74CBA18DE9E45000FCFD7 /* WhoIsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA74CB918DE9E45000FCFD7 /* WhoIsAppDelegate.m */; };
-		0AA74CBD18DE9E45000FCFD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA74CBB18DE9E45000FCFD7 /* Main.storyboard */; };
+		0AA74CBD18DE9E45000FCFD7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA74CBB18DE9E45000FCFD7 /* MainStoryboard.storyboard */; };
 		0AA74CC018DE9E45000FCFD7 /* WhoIsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA74CBF18DE9E45000FCFD7 /* WhoIsViewController.m */; };
 		0AA74CC218DE9E45000FCFD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA74CC118DE9E45000FCFD7 /* Images.xcassets */; };
 		0AA74CC918DE9E45000FCFD7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA74CC818DE9E45000FCFD7 /* XCTest.framework */; };
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A559BE218E7FBE50053BDBA /* GameCategorySelectorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCategorySelectorController.h; sourceTree = "<group>"; };
+		0A559BE318E7FBE50053BDBA /* GameCategorySelectorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCategorySelectorController.m; sourceTree = "<group>"; };
+		0A559BEE18E8002A0053BDBA /* StageSelectorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageSelectorController.h; sourceTree = "<group>"; };
+		0A559BEF18E8002A0053BDBA /* StageSelectorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageSelectorController.m; sourceTree = "<group>"; };
+		0A559BF118E8217E0053BDBA /* QuizListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizListController.h; sourceTree = "<group>"; };
+		0A559BF218E8217E0053BDBA /* QuizListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizListController.m; sourceTree = "<group>"; };
 		0AA74CA618DE9E45000FCFD7 /* WhoIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA74CA918DE9E45000FCFD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AA74CAB18DE9E45000FCFD7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +53,7 @@
 		0AA74CB718DE9E45000FCFD7 /* WhoIs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhoIs-Prefix.pch"; sourceTree = "<group>"; };
 		0AA74CB818DE9E45000FCFD7 /* WhoIsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhoIsAppDelegate.h; sourceTree = "<group>"; };
 		0AA74CB918DE9E45000FCFD7 /* WhoIsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhoIsAppDelegate.m; sourceTree = "<group>"; };
-		0AA74CBC18DE9E45000FCFD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AA74CBC18DE9E45000FCFD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0AA74CBE18DE9E45000FCFD7 /* WhoIsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhoIsViewController.h; sourceTree = "<group>"; };
 		0AA74CBF18DE9E45000FCFD7 /* WhoIsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhoIsViewController.m; sourceTree = "<group>"; };
 		0AA74CC118DE9E45000FCFD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -156,6 +165,12 @@
 			children = (
 				0AA74CBE18DE9E45000FCFD7 /* WhoIsViewController.h */,
 				0AA74CBF18DE9E45000FCFD7 /* WhoIsViewController.m */,
+				0A559BE218E7FBE50053BDBA /* GameCategorySelectorController.h */,
+				0A559BE318E7FBE50053BDBA /* GameCategorySelectorController.m */,
+				0A559BEE18E8002A0053BDBA /* StageSelectorController.h */,
+				0A559BEF18E8002A0053BDBA /* StageSelectorController.m */,
+				0A559BF118E8217E0053BDBA /* QuizListController.h */,
+				0A559BF218E8217E0053BDBA /* QuizListController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -163,7 +178,7 @@
 		0AA74CDF18DEBC84000FCFD7 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				0AA74CBB18DE9E45000FCFD7 /* Main.storyboard */,
+				0AA74CBB18DE9E45000FCFD7 /* MainStoryboard.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -247,7 +262,7 @@
 			files = (
 				0AA74CC218DE9E45000FCFD7 /* Images.xcassets in Resources */,
 				0AA74CB418DE9E45000FCFD7 /* InfoPlist.strings in Resources */,
-				0AA74CBD18DE9E45000FCFD7 /* Main.storyboard in Resources */,
+				0AA74CBD18DE9E45000FCFD7 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A559BE418E7FBE50053BDBA /* GameCategorySelectorController.m in Sources */,
+				0A559BF018E8002A0053BDBA /* StageSelectorController.m in Sources */,
+				0A559BF318E8217E0053BDBA /* QuizListController.m in Sources */,
 				0AA74CB618DE9E45000FCFD7 /* main.m in Sources */,
 				0AA74CC018DE9E45000FCFD7 /* WhoIsViewController.m in Sources */,
 				0AA74CBA18DE9E45000FCFD7 /* WhoIsAppDelegate.m in Sources */,
@@ -299,12 +317,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		0AA74CBB18DE9E45000FCFD7 /* Main.storyboard */ = {
+		0AA74CBB18DE9E45000FCFD7 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0AA74CBC18DE9E45000FCFD7 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		0AA74CD118DE9E45000FCFD7 /* InfoPlist.strings */ = {
@@ -473,6 +491,7 @@
 				0AA74CDA18DE9E45000FCFD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AA74CDB18DE9E45000FCFD7 /* Build configuration list for PBXNativeTarget "WhoIsTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +500,7 @@
 				0AA74CDD18DE9E45000FCFD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
