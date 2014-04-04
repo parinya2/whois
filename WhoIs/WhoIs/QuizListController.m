@@ -7,6 +7,7 @@
 //
 
 #import "QuizListController.h"
+#import "WhoIsViewController.h"
 
 @interface QuizListController ()
 
@@ -57,7 +58,14 @@
   return cell;
 }
 
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //[tableView deselectRowAtIndexPath:indexPath animated:NO];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    WhoIsViewController *whoIsViewController = [storyboard instantiateViewControllerWithIdentifier:@"WhoIs"];
+    whoIsViewController.navigationItem.title = [tableView cellForRowAtIndexPath:indexPath].textLabel.text;
+    [self.navigationController pushViewController:whoIsViewController animated:TRUE];
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

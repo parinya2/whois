@@ -47,6 +47,7 @@
   if (indexPath.row == 0) {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
     StageSelectorController *stageSelectorController = [storyboard instantiateViewControllerWithIdentifier:@"StageSelector"];
+    stageSelectorController.navigationItem.title = [tableView cellForRowAtIndexPath:indexPath].textLabel.text;
     [self.navigationController pushViewController:stageSelectorController animated:YES];
   }
 }

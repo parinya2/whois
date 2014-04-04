@@ -63,8 +63,11 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
   UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
-  QuizListController *quizListController = [storyboard instantiateViewControllerWithIdentifier:@"QuizList"];
-  [self.navigationController pushViewController:quizListController animated:YES];
+  if([collectionView cellForItemAtIndexPath:indexPath].backgroundColor == [UIColor grayColor]){
+    QuizListController *quizListController = [storyboard instantiateViewControllerWithIdentifier:@"QuizList"];
+    quizListController.navigationItem.title = [NSString stringWithFormat:@"Level %d", indexPath.section*3+indexPath.row+1];
+    [self.navigationController pushViewController:quizListController animated:YES];
+  }
 }
 
 #pragma mark - UICollectionView Layout

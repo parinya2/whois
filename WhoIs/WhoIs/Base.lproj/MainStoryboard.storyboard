@@ -29,9 +29,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="push" id="giZ-zb-d4i"/>
-                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="XCw-9N-4R8" style="IBUITableViewCellStyleDefault" id="AWW-3H-cvW">
                                 <rect key="frame" x="0.0" y="130" width="320" height="44"/>
@@ -202,7 +199,7 @@
         <!--Who Is View Controller - Quiz-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="WhoIsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WhoIs" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vXZ-lx-hvc" customClass="WhoIsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -331,7 +328,7 @@
             </objects>
             <point key="canvasLocation" x="1728" y="21"/>
         </scene>
-        <!--Stage Selector Controller-->
+        <!--Stage Selector Controller - Level-->
         <scene sceneID="Qen-14-UbH">
             <objects>
                 <collectionViewController storyboardIdentifier="StageSelector" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3o1-ze-gRP" customClass="StageSelectorController" sceneMemberID="viewController">
@@ -362,7 +359,7 @@
                             <outlet property="delegate" destination="3o1-ze-gRP" id="VO0-Rn-GYu"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="mki-2z-nIV"/>
+                    <navigationItem key="navigationItem" title="Level" id="mki-2z-nIV"/>
                     <connections>
                         <segue destination="FJH-7g-bqY" kind="push" id="X25-g1-hzu"/>
                     </connections>
