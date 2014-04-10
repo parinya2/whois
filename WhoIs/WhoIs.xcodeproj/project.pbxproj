@@ -24,7 +24,6 @@
 		0AA74CCB18DE9E45000FCFD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA74CAD18DE9E45000FCFD7 /* UIKit.framework */; };
 		0AA74CD318DE9E45000FCFD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AA74CD118DE9E45000FCFD7 /* InfoPlist.strings */; };
 		0AA74CD518DE9E45000FCFD7 /* WhoIsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA74CD418DE9E45000FCFD7 /* WhoIsTests.m */; };
-		FF440EDF18ED799400E6A4F0 /* 13577332681357733498l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF440EDE18ED799400E6A4F0 /* 13577332681357733498l.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +62,6 @@
 		0AA74CD018DE9E45000FCFD7 /* WhoIsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhoIsTests-Info.plist"; sourceTree = "<group>"; };
 		0AA74CD218DE9E45000FCFD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AA74CD418DE9E45000FCFD7 /* WhoIsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhoIsTests.m; sourceTree = "<group>"; };
-		FF440EDE18ED799400E6A4F0 /* 13577332681357733498l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13577332681357733498l.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +134,6 @@
 		0AA74CB018DE9E45000FCFD7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF440EDE18ED799400E6A4F0 /* 13577332681357733498l.jpg */,
 				0AA74CB118DE9E45000FCFD7 /* WhoIs-Info.plist */,
 				0AA74CB218DE9E45000FCFD7 /* InfoPlist.strings */,
 				0AA74CB518DE9E45000FCFD7 /* main.m */,
@@ -266,7 +263,6 @@
 				0AA74CC218DE9E45000FCFD7 /* Images.xcassets in Resources */,
 				0AA74CB418DE9E45000FCFD7 /* InfoPlist.strings in Resources */,
 				0AA74CBD18DE9E45000FCFD7 /* MainStoryboard.storyboard in Resources */,
-				FF440EDF18ED799400E6A4F0 /* 13577332681357733498l.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

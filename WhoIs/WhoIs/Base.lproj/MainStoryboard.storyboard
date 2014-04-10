@@ -191,6 +191,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Quiz" id="m0k-B3-ugO"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="push" id="4PK-7y-Aej"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2uH-dS-ndy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
